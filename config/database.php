@@ -46,10 +46,10 @@ return [
 
         'mysql' =>  array(
         'driver'    => 'mysql',
-        'host'      => $host,
-        'database'  => $database,
-        'username'  => $username,
-        'password'  => $password,
+        'host'      => '127.0.0.1',
+        'database'  => 'employees_db',
+        'username'  => 'root',
+        'password'  => '',
         'charset'   => 'utf8',
         'collation' => 'utf8_unicode_ci',
         'prefix'    => '',
