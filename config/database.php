@@ -46,8 +46,8 @@ return [
 
         'mysql' =>  array(
         'driver'    => 'mysql',
-        'host'      => '127.0.0.1',
-        'database'  => 'homestead.local',
+        'host'      => 'localhost',
+        'database'  => 'employees_db',
         'username'  => 'root',
         'password'  => '',
         'charset'   => 'utf8',
