@@ -53,7 +53,7 @@ class DepartmentController extends Controller
             'name' => $request['name']
         ]);
 
-        return redirect()->intended('system-management/department');
+        return redirect()->intended('system-management/upload');
     }
 
     /**

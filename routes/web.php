@@ -48,3 +48,13 @@ Route::post('system-management/report/excel', 'ReportController@exportExcel')->n
 Route::post('system-management/report/pdf', 'ReportController@exportPDF')->name('report.pdf');
 
 Route::get('avatars/{name}', 'EmployeeManagementController@load');
+
+Route::get('upload', 'uploadController@index');
+Route::post('store', 'uploadController@store');
+Route::get('show', 'uploadController@show');
+
+Route::get('gallery/list', 'GalleryController@viewGalleryList');
+Route::post('gallery/save', 'GalleryController@saveGallery');
+Route::get('gallery/view/{id}', 'GalleryController@viewGalleryPics');
+Route::post('image/do-upload', 'GalleryController@doImageUpload');
+Route::get('gallery/delete/{id}', 'GalleryController@deleteGallery');

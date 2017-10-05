@@ -11,9 +11,32 @@
     "axios": "^0.15.3",
     "bootstrap-sass": "^3.3.7",
     "cross-env": "^3.2.3",
+    "gulp": "^3.9.1",
+    "gulp-concat-vendor": "0.0.4",
     "jquery": "^3.1.1",
+    "laravel-elixir": "^6.0.0-16",
     "laravel-mix": "^0.8.3",
     "lodash": "^4.17.4",
     "vue": "^2.1.10"
-  }
+  },
+  "name": "employee-mgmt-laravel5.4-adminlte",
+  "description": "<p align=\"center\"><img src=\"https://laravel.com/assets/img/components/logo-laravel.svg\"></p>",
+  "version": "1.0.0",
+  "main": "webpack.mix.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "vendor.js": "0.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoadv/employee-mgmt-laravel5.4-adminlte.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoadv/employee-mgmt-laravel5.4-adminlte/issues"
+  },
+  "homepage": "https://github.com/hoadv/employee-mgmt-laravel5.4-adminlte#readme"
 }

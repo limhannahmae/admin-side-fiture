@@ -34,18 +34,16 @@
         <li class="active"><a href="/"><i class="fa fa-link"></i> <span>Dashboard</span></a></li>
         <li><a href="{{ url('employee-management') }}"><i class="fa fa-link"></i> <span>Employee Management</span></a></li>
         <li class="treeview">
-          <a href="#"><i class="fa fa-link"></i> <span>System Management</span>
+          <a href="#"><i class="fa fa-link"></i> <span>Upload</span>
             <span class="pull-right-container">
               <i class="fa fa-angle-left pull-right"></i>
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="{{ url('system-management/department') }}">Department</a></li>
-            <li><a href="{{ url('system-management/division') }}">Division</a></li>
-            <li><a href="{{ url('system-management/country') }}">Country</a></li>
-            <li><a href="{{ url('system-management/state') }}">State</a></li>
-            <li><a href="{{ url('system-management/city') }}">City</a></li>
-            <li><a href="{{ url('system-management/report') }}">Report</a></li>
+            <li><a href="{{ url('gallery/list') }}">Image</a></li>
+            <li><a href="{{ url('system-management/division') }}">Video</a></li>
+            
+            
           </ul>
         </li>
         <li><a href="{{ route('user-management.index') }}"><i class="fa fa-link"></i> <span>User management</span></a></li>
