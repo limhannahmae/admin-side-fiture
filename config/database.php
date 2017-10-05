@@ -40,13 +40,13 @@ return [
 
         'sqlite' => [
             'driver' => 'sqlite',
-            'database' => env('DB_DATABASE', database_path('database.sqlite')),
+            'database' => env('employees_db', database_path('database.sqlite')),
             'prefix' => '',
         ],
 
         'mysql' =>  array(
         'driver'    => 'mysql',
-        'host'      => 'localhost',
+        'host'      => '127.0.0.1',
         'database'  => 'employees_db',
         'username'  => 'root',
         'password'  => '',
