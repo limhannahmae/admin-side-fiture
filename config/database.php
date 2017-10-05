@@ -47,7 +47,7 @@ return [
         'mysql' =>  array(
         'driver'    => 'mysql',
         'host'      => '127.0.0.1',
-        'database'  => 'employees_db',
+        'database'  => 'homestead.local',
         'username'  => 'root',
         'password'  => '',
         'charset'   => 'utf8',
