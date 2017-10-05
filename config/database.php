@@ -1,7 +1,7 @@
 <?php
 
 return [
-        $url = parse_url("mysql://bfc779b943dbe3:3b52ec84@us-cdbr-iron-east-05.cleardb.net/heroku_ced932d6487b2a6?reconnect=true");
+        $url = parse_url(("mysql://bfc779b943dbe3:3b52ec84@us-cdbr-iron-east-05.cleardb.net/heroku_ced932d6487b2a6?reconnect=true");
 
 $host = $url["host"];
 $username = $url["user"];

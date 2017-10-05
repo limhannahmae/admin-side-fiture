@@ -103,8 +103,8 @@ class GalleryController extends Controller
 
 		$currentGallery->delete();
 
-		return redirect()->back()
+		return redirect()->back();
 	}
 
-
+	
 }
