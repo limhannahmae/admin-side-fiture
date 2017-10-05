@@ -20,7 +20,7 @@ var handleDropzoneFileUpload = {
 		var imageSrc = baseUrl + '/' + response.file_name;
 		$(imageList).append('<li><a href="' + imageSrc+ '"><img src="' + imageSrc+ '"> </a></li>');
 	}
-};
+}
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
