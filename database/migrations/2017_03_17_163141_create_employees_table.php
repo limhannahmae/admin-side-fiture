@@ -1,5 +1,5 @@
 <?php
-
+/*
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
@@ -11,7 +11,7 @@ class CreateEmployeesTable extends Migration
      *
      * @return void
      */
-    public function up()
+  /*  public function up()
     {
         Schema::create('employees', function (Blueprint $table) {
             $table->increments('id');
@@ -24,7 +24,7 @@ class CreateEmployeesTable extends Migration
             $table->integer('country_id');
          //   $table->foreign('city_id')->references('id')->on('city');
            // $table->foreign('state_id')->references('id')->on('state');
-            $table->foreign('country_id')->references('id')->on('country');
+          //  $table->foreign('country_id')->references('id')->on('country');
             $table->char('zip', 10);
             $table->integer('age');
             $table->date('birthdate');
@@ -39,15 +39,15 @@ class CreateEmployeesTable extends Migration
             $table->timestamps();
             $table->softDeletes();
         });
-    }
+    }*/
 
     /**
      * Reverse the migrations.
      *
      * @return void
-     */
+/*     */
     public function down()
     {
         Schema::dropIfExists('employees');
     }
-}
+}*/
