@@ -105,6 +105,6 @@ class GalleryController extends Controller
 
 		return redirect()->back();
 	}
-
+		
 	
 }
