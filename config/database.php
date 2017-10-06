@@ -65,7 +65,6 @@ return [
     'prefix'   => '',
     'schema'   => 'public',
 ],
-],
 
     ],
 
