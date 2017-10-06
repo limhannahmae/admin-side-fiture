@@ -57,13 +57,14 @@ return [
 
         'pgsql' => [
     'driver'   => 'pgsql',
-    'host'     => parse_url("mysql://bfc779b943dbe3:3b52ec84@us-cdbr-iron-east-05.cleardb.net/heroku_ced932d6487b2a6?reconnect=true")["host"],
+    'host'     => parse_url(getenv("DATABASE_URL"))["host"],
     'database' => substr(parse_url(getenv("DATABASE_URL"))["path"], 1),
-    'username' => parse_url("mysql://bfc779b943dbe3:3b52ec84@us-cdbr-iron-east-05.cleardb.net/heroku_ced932d6487b2a6?reconnect=true")["user"],
-    'password' => parse_url("mysql://bfc779b943dbe3:3b52ec84@us-cdbr-iron-east-05.cleardb.net/heroku_ced932d6487b2a6?reconnect=true")["pass"],
+    'username' => parse_url(getenv("DATABASE_URL"))["user"],
+    'password' => parse_url(getenv("DATABASE_URL"))["pass"],
     'charset'  => 'utf8',
     'prefix'   => '',
     'schema'   => 'public',
+],
 ],
 
     ],
