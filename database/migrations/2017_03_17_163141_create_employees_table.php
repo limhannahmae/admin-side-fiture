@@ -22,7 +22,7 @@ class CreateEmployeesTable extends Migration
             $table->integer('city_id');
             $table->integer('state_id');
             $table->integer('country_id');
-            $table->foreign('city_id')->references('id')->on('city');
+         //   $table->foreign('city_id')->references('id')->on('city');
             $table->foreign('state_id')->references('id')->on('state');
             $table->foreign('country_id')->references('id')->on('country');
             $table->char('zip', 10);
