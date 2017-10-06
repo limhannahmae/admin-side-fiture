@@ -1,13 +1,10 @@
 <?php
 $url = parse_url("mysql://bfc779b943dbe3:3b52ec84@us-cdbr-iron-east-05.cleardb.net/heroku_ced932d6487b2a6?reconnect=true");
 
-$server = $url["host"];
+host = $url["host"];
 $username = $url["user"];
 $password = $url["pass"];
-$db = substr($url["path"], 1);
-
-$conn = new mysqli($server, $username, $password, $db);
-?>
+$database = substr($url["path"], 1);
 return [
         
     /*
