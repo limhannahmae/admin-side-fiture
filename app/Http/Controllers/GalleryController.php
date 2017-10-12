@@ -60,6 +60,10 @@ class GalleryController extends Controller
 	}
 	public function doImageUpload(Request $request)
 	{
+		$validator = Validator::make($request->all(), [
+   	 'file' => 'max:10240',
+		]);
+
 		//get file from post request
 		$file = $request->file('file');
 		

@@ -20,6 +20,7 @@
 */
 
 require __DIR__.'/../bootstrap/autoload.php';
+require('vendor/autoload.php');
 
 /*
 |--------------------------------------------------------------------------

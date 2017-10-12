@@ -18,6 +18,9 @@ class User extends Model implements AuthenticatableContract, CanResetPasswordCon
     *
     * @var array
     */
+    public function posts() {
+return $this->hasMany(Post::class);
+}
     protected $table = "users";
 
     protected $fillable =['name', 'email', 'password'];
